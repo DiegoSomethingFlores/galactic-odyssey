@@ -2,7 +2,10 @@
     "name": "Galactic Odyssey",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Galactic Odyssey": "github:diegosomethingflores/galactic-odyssey#f5bee220041fabafad918fc8a1bcbb78da1faac5",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
     },
     "files": [
         "main.blocks",
@@ -19,5 +22,6 @@
     },
     "supportedTargets": [
         "arcade"
-    ]
+    ],
+    "preferredEditor": "blocksprj"
 }
